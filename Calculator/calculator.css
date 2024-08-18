@@ -1,0 +1,47 @@
+body{
+    background-image: radial-gradient(circle, #2d7a85, #047397, #3366a1, #68529a, #90357b, #ab2a60, #b72f3f, #b34418, #b16800, #a28a00, #88aa0e, #59c74e);
+}
+.calculator {
+    background-image: radial-gradient(circle, #f0f0f0, #dddddd, #cbcacb, #b9b7b8, #a8a5a6, #939091, #7f7c7c, #6b6868, #504e4e, #363535, #1e1d1e, #000000);
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(175, 248, 4, 0.877);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f51414;
+}
